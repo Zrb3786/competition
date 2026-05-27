@@ -1,0 +1,925 @@
+
+==============================================================================================================
+v11_allA_cross_fullVG_5x3/predictions_cls_top6_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_cross_fullVG_5x3/predictions_cls_top6_normal/submission.zip
+binary={0: np.int64(8), 1: np.int64(15)} ternary={0: np.int64(9), 1: np.int64(8), 2: np.int64(6)}
+inconsistent=1 ids=26
+severe=13,45,69,91,92,117
+changed_binary_vs_v9=4 ids=6,26,69,97
+changed_ternary_vs_v9=7 ids=6,13,18,69,92,97,117
+p_conflicts=6 strong_suspicious=1 ids=69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.032429             0
+  6            1   8.047751             1
+  8            0   2.424556             0
+ 13            1   4.924602             2
+ 18            1   3.866648             1
+ 24            1   4.691687             1
+ 26            1   3.785697             0
+ 32            0   2.431970             0
+ 33            0   2.241643             0
+ 35            0   5.849838             0
+ 45            1   8.171998             2
+ 48            1   6.604182             1
+ 51            0   3.347280             0
+ 59            1   7.113161             1
+ 69            1   8.980928             2
+ 70            0   3.040124             0
+ 83            1   5.687868             1
+ 86            0   3.496249             0
+ 91            1   7.671922             2
+ 92            1   4.703678             2
+ 97            1   5.137534             1
+106            1   7.912251             1
+117            1   7.710425             2
+
+==============================================================================================================
+v11_allA_cross_fullVG_5x3/predictions_cls_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_cross_fullVG_5x3/predictions_cls_top8_normal/submission.zip
+binary={0: np.int64(8), 1: np.int64(15)} ternary={0: np.int64(10), 1: np.int64(8), 2: np.int64(5)}
+inconsistent=2 ids=13,26
+severe=45,69,91,92,117
+changed_binary_vs_v9=4 ids=6,26,69,97
+changed_ternary_vs_v9=7 ids=6,13,18,69,92,97,117
+p_conflicts=6 strong_suspicious=1 ids=69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   1.864464             0
+  6            1   6.380391             1
+  8            0   2.219442             0
+ 13            1   4.102060             0
+ 18            1   3.236550             1
+ 24            1   3.794373             1
+ 26            1   3.463379             0
+ 32            0   2.148463             0
+ 33            0   2.060032             0
+ 35            0   4.726903             0
+ 45            1   6.639030             2
+ 48            1   5.194324             1
+ 51            0   2.819561             0
+ 59            1   5.953797             1
+ 69            1   7.037481             2
+ 70            0   2.634273             0
+ 83            1   4.453502             1
+ 86            0   3.075817             0
+ 91            1   6.141151             2
+ 92            1   3.889028             2
+ 97            1   4.218157             1
+106            1   6.145782             1
+117            1   6.050999             2
+
+==============================================================================================================
+v11_allA_cross_fullVG_5x3/predictions_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_cross_fullVG_5x3/predictions_normal/submission.zip
+binary={0: np.int64(9), 1: np.int64(14)} ternary={0: np.int64(14), 1: np.int64(6), 2: np.int64(3)}
+inconsistent=5 ids=6,13,18,92,97
+severe=45,69,91
+changed_binary_vs_v9=3 ids=6,69,97
+changed_ternary_vs_v9=4 ids=13,18,69,92
+p_conflicts=7 strong_suspicious=2 ids=26,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   1.345306             0
+  6            1   5.616305             0
+  8            0   1.512517             0
+ 13            1   3.781338             0
+ 18            1   3.744911             0
+ 24            1   4.936915             1
+ 26            0   3.382141             0
+ 32            0   1.633680             0
+ 33            0   1.832810             0
+ 35            0   4.093599             0
+ 45            1   7.423270             2
+ 48            1   4.374757             1
+ 51            0   2.531620             0
+ 59            1   7.453407             1
+ 69            1   7.566670             2
+ 70            0   3.920122             0
+ 83            1   5.441121             1
+ 86            0   2.724021             0
+ 91            1   6.382174             2
+ 92            1   4.375360             0
+ 97            1   3.257988             0
+106            1   6.162224             1
+117            1   5.816417             1
+
+==============================================================================================================
+v11_allA_cross_fullVG_5x3/predictions_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_cross_fullVG_5x3/predictions_top8_normal/submission.zip
+binary={0: np.int64(9), 1: np.int64(14)} ternary={0: np.int64(10), 1: np.int64(9), 2: np.int64(4)}
+inconsistent=1 ids=92
+severe=45,69,91,117
+changed_binary_vs_v9=3 ids=6,69,97
+changed_ternary_vs_v9=6 ids=6,18,69,92,97,117
+p_conflicts=7 strong_suspicious=2 ids=26,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   1.915582             0
+  6            1   7.025940             1
+  8            0   2.366330             0
+ 13            1   4.529349             1
+ 18            1   4.524146             1
+ 24            1   3.954193             1
+ 26            0   3.676598             0
+ 32            0   2.512074             0
+ 33            0   2.893851             0
+ 35            0   5.185140             0
+ 45            1   6.948238             2
+ 48            1   5.635189             1
+ 51            0   3.602105             0
+ 59            1   6.623409             1
+ 69            1   7.345393             2
+ 70            0   3.088588             0
+ 83            1   4.697165             1
+ 86            0   3.781935             0
+ 91            1   6.588950             2
+ 92            1   4.244244             0
+ 97            1   4.477672             1
+106            1   6.773970             1
+117            1   6.555238             2
+
+==============================================================================================================
+v11_allA_cross_noVBeh_5x3/predictions_cls_top6_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_cross_noVBeh_5x3/predictions_cls_top6_normal/submission.zip
+binary={0: np.int64(8), 1: np.int64(15)} ternary={0: np.int64(10), 1: np.int64(10), 2: np.int64(3)}
+inconsistent=2 ids=18,92
+severe=45,69,91
+changed_binary_vs_v9=4 ids=6,69,70,97
+changed_ternary_vs_v9=6 ids=6,18,69,70,92,97
+p_conflicts=8 strong_suspicious=2 ids=26,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.528498             0
+  6            1   4.268111             1
+  8            0   3.269137             0
+ 13            1   5.424479             1
+ 18            1   2.932803             0
+ 24            1   5.446970             1
+ 26            0   3.360567             0
+ 32            0   3.134195             0
+ 33            0   2.678636             0
+ 35            0   3.638442             0
+ 45            1   4.585804             2
+ 48            1   5.020870             1
+ 51            0   4.239142             0
+ 59            1   4.377910             1
+ 69            1   4.072580             2
+ 70            1   5.651126             1
+ 83            1   4.634695             1
+ 86            0   4.730423             0
+ 91            1   4.452877             2
+ 92            1   4.243776             0
+ 97            1   4.851714             1
+106            1   5.090225             1
+117            1   3.262006             1
+
+==============================================================================================================
+v11_allA_cross_noVBeh_5x3/predictions_cls_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_cross_noVBeh_5x3/predictions_cls_top8_normal/submission.zip
+binary={0: np.int64(9), 1: np.int64(14)} ternary={0: np.int64(9), 1: np.int64(10), 2: np.int64(4)}
+inconsistent=2 ids=92,97
+severe=13,45,69,91
+changed_binary_vs_v9=3 ids=6,69,70
+changed_ternary_vs_v9=7 ids=6,13,18,69,70,92,97
+p_conflicts=9 strong_suspicious=2 ids=26,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.231445             0
+  6            1   7.932529             1
+  8            0   3.538440             0
+ 13            1   9.127797             2
+ 18            1   5.862867             1
+ 24            1   6.032490             1
+ 26            0   4.240730             0
+ 32            0   2.825513             0
+ 33            0   2.368592             0
+ 35            0   4.686303             0
+ 45            1   8.194746             2
+ 48            1   5.368212             1
+ 51            0   4.997249             0
+ 59            1   5.787490             1
+ 69            1   7.020646             2
+ 70            1   7.497605             1
+ 83            1   5.476142             1
+ 86            0   4.568117             0
+ 91            1   7.695770             2
+ 92            1   4.333877             0
+ 97            0   5.321430             1
+106            1   8.600521             1
+117            1   4.310196             1
+
+==============================================================================================================
+v11_allA_cross_noVBeh_5x3/predictions_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_cross_noVBeh_5x3/predictions_normal/submission.zip
+binary={0: np.int64(7), 1: np.int64(16)} ternary={0: np.int64(10), 1: np.int64(9), 2: np.int64(4)}
+inconsistent=3 ids=26,70,92
+severe=13,18,69,91
+changed_binary_vs_v9=5 ids=6,26,69,70,97
+changed_ternary_vs_v9=6 ids=6,13,45,69,92,97
+p_conflicts=7 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.656346             0
+  6            1   5.460573             1
+  8            0   2.736597             0
+ 13            1   5.904480             2
+ 18            1   3.882393             2
+ 24            1   4.391521             1
+ 26            1   2.831672             0
+ 32            0   2.112798             0
+ 33            0   1.954853             0
+ 35            0   3.375225             0
+ 45            1   5.423017             1
+ 48            1   3.814748             1
+ 51            0   3.430854             0
+ 59            1   4.130725             1
+ 69            1   4.624863             2
+ 70            1   5.238737             0
+ 83            1   3.864958             1
+ 86            0   3.292608             0
+ 91            1   5.081756             2
+ 92            1   3.208300             0
+ 97            1   3.716932             1
+106            1   5.710185             1
+117            1   3.023065             1
+
+==============================================================================================================
+v11_allA_cross_noVBeh_5x3/predictions_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_cross_noVBeh_5x3/predictions_top8_normal/submission.zip
+binary={0: np.int64(9), 1: np.int64(14)} ternary={0: np.int64(9), 1: np.int64(10), 2: np.int64(4)}
+inconsistent=2 ids=92,97
+severe=13,45,69,91
+changed_binary_vs_v9=3 ids=6,69,70
+changed_ternary_vs_v9=7 ids=6,13,18,69,70,92,97
+p_conflicts=9 strong_suspicious=2 ids=26,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.231444             0
+  6            1   7.932529             1
+  8            0   3.538440             0
+ 13            1   9.127797             2
+ 18            1   5.862867             1
+ 24            1   6.032490             1
+ 26            0   4.240730             0
+ 32            0   2.825513             0
+ 33            0   2.368592             0
+ 35            0   4.686303             0
+ 45            1   8.194746             2
+ 48            1   5.368212             1
+ 51            0   4.997249             0
+ 59            1   5.787490             1
+ 69            1   7.020646             2
+ 70            1   7.497605             1
+ 83            1   5.476142             1
+ 86            0   4.568117             0
+ 91            1   7.695770             2
+ 92            1   4.333877             0
+ 97            0   5.321430             1
+106            1   8.600521             1
+117            1   4.310196             1
+
+==============================================================================================================
+v11_allA_no_cross_fullVG_5x3/predictions_cls_top6_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_fullVG_5x3/predictions_cls_top6_normal/submission.zip
+binary={0: np.int64(6), 1: np.int64(17)} ternary={0: np.int64(8), 1: np.int64(9), 2: np.int64(6)}
+inconsistent=2 ids=26,86
+severe=13,18,45,69,91,92
+changed_binary_vs_v9=6 ids=6,26,35,69,86,97
+changed_ternary_vs_v9=6 ids=6,13,35,69,92,97
+p_conflicts=8 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.493376             0
+  6            1   5.634347             1
+  8            0   3.412144             0
+ 13            1   4.361858             2
+ 18            1   3.992749             2
+ 24            1   4.844718             1
+ 26            1   4.131358             0
+ 32            0   3.307656             0
+ 33            0   2.392956             0
+ 35            1   5.156460             1
+ 45            1   4.532666             2
+ 48            1   5.310963             1
+ 51            0   4.103189             0
+ 59            1   6.375513             1
+ 69            1   5.215780             2
+ 70            0   3.464932             0
+ 83            1   4.612259             1
+ 86            1   4.858024             0
+ 91            1   4.533407             2
+ 92            1   4.440080             2
+ 97            1   3.964657             1
+106            1   4.980348             1
+117            1   4.389781             1
+
+==============================================================================================================
+v11_allA_no_cross_fullVG_5x3/predictions_cls_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_fullVG_5x3/predictions_cls_top8_normal/submission.zip
+binary={0: np.int64(7), 1: np.int64(16)} ternary={0: np.int64(9), 1: np.int64(9), 2: np.int64(5)}
+inconsistent=4 ids=26,35,86,97
+severe=18,45,69,91,92
+changed_binary_vs_v9=5 ids=6,26,69,86,97
+changed_ternary_vs_v9=4 ids=6,35,69,92
+p_conflicts=7 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.102506             0
+  6            1   4.594856             1
+  8            0   2.781028             0
+ 13            1   3.539771             1
+ 18            1   3.197051             2
+ 24            1   3.881984             1
+ 26            1   3.313689             0
+ 32            0   2.714610             0
+ 33            0   2.084161             0
+ 35            0   4.159558             1
+ 45            1   3.595782             2
+ 48            1   4.128355             1
+ 51            0   3.299804             0
+ 59            1   4.998429             1
+ 69            1   4.173154             2
+ 70            0   2.865278             0
+ 83            1   3.822407             1
+ 86            1   4.040596             0
+ 91            1   3.510340             2
+ 92            1   3.506391             2
+ 97            1   3.191392             0
+106            1   3.936772             1
+117            1   3.675173             1
+
+==============================================================================================================
+v11_allA_no_cross_fullVG_5x3/predictions_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_fullVG_5x3/predictions_normal/submission.zip
+binary={0: np.int64(8), 1: np.int64(15)} ternary={0: np.int64(10), 1: np.int64(7), 2: np.int64(6)}
+inconsistent=2 ids=26,97
+severe=13,18,45,69,91,92
+changed_binary_vs_v9=4 ids=6,26,69,97
+changed_ternary_vs_v9=4 ids=6,13,69,92
+p_conflicts=6 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   1.916625             0
+  6            1   5.695865             1
+  8            0   2.304513             0
+ 13            1   3.958649             2
+ 18            1   3.877213             2
+ 24            1   6.001523             1
+ 26            1   4.217539             0
+ 32            0   2.284263             0
+ 33            0   1.909479             0
+ 35            0   4.358823             0
+ 45            1   5.764041             2
+ 48            1   4.989423             1
+ 51            0   3.482554             0
+ 59            1   6.459183             1
+ 69            1   6.243233             2
+ 70            0   3.468483             0
+ 83            1   4.855425             1
+ 86            0   3.389270             0
+ 91            1   5.669262             2
+ 92            1   4.672870             2
+ 97            1   3.807248             0
+106            1   5.221174             1
+117            1   5.160736             1
+
+==============================================================================================================
+v11_allA_no_cross_fullVG_5x3/predictions_single_fold1_seed43
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_fullVG_5x3/predictions_single_fold1_seed43/submission.zip
+binary={0: np.int64(6), 1: np.int64(17)} ternary={0: np.int64(6), 1: np.int64(13), 2: np.int64(4)}
+inconsistent=0 ids=
+severe=18,24,45,92
+changed_binary_vs_v9=6 ids=6,35,69,70,86,97
+changed_ternary_vs_v9=9 ids=6,24,35,69,70,86,91,92,97
+p_conflicts=10 strong_suspicious=3 ids=18,24,26
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   1.258033             0
+  6            1   8.619823             1
+  8            0   3.580737             0
+ 13            1   6.423656             1
+ 18            1   3.203622             2
+ 24            1   6.272295             2
+ 26            0   4.670027             0
+ 32            0   1.644760             0
+ 33            0   0.327965             0
+ 35            1   6.318910             1
+ 45            1   5.840444             2
+ 48            1   9.794075             1
+ 51            0   4.280015             0
+ 59            1   7.416409             1
+ 69            1  10.527424             1
+ 70            1   1.625523             1
+ 83            1   8.979827             1
+ 86            1   5.884989             1
+ 91            1   9.013017             1
+ 92            1   8.423706             2
+ 97            1   5.101823             1
+106            1   9.585056             1
+117            1   7.260403             1
+
+==============================================================================================================
+v11_allA_no_cross_fullVG_5x3/predictions_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_fullVG_5x3/predictions_top8_normal/submission.zip
+binary={0: np.int64(6), 1: np.int64(17)} ternary={0: np.int64(10), 1: np.int64(8), 2: np.int64(5)}
+inconsistent=4 ids=26,51,86,97
+severe=18,45,69,91,92
+changed_binary_vs_v9=6 ids=6,26,51,69,86,97
+changed_ternary_vs_v9=3 ids=6,69,92
+p_conflicts=8 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.340294             0
+  6            1   5.048065             1
+  8            0   3.067562             0
+ 13            1   3.814730             1
+ 18            1   3.690853             2
+ 24            1   4.152166             1
+ 26            1   3.573629             0
+ 32            0   3.090744             0
+ 33            0   2.573836             0
+ 35            0   4.670274             0
+ 45            1   3.883944             2
+ 48            1   4.421843             1
+ 51            1   3.723302             0
+ 59            1   5.320120             1
+ 69            1   4.493906             2
+ 70            0   3.300368             0
+ 83            1   4.033430             1
+ 86            1   4.293692             0
+ 91            1   3.939548             2
+ 92            1   3.838878             2
+ 97            1   3.536365             0
+106            1   4.247647             1
+117            1   4.010643             1
+
+==============================================================================================================
+v11_allA_no_cross_noVBeh_5x3/predictions_cls_top6_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_noVBeh_5x3/predictions_cls_top6_normal/submission.zip
+binary={0: np.int64(6), 1: np.int64(17)} ternary={0: np.int64(7), 1: np.int64(11), 2: np.int64(5)}
+inconsistent=1 ids=26
+severe=18,45,69,91,92
+changed_binary_vs_v9=6 ids=6,26,69,70,86,97
+changed_ternary_vs_v9=6 ids=6,69,70,86,92,97
+p_conflicts=8 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   4.193152             0
+  6            1   4.695323             1
+  8            0   4.062725             0
+ 13            1   4.866973             1
+ 18            1   3.499457             2
+ 24            1   5.028444             1
+ 26            1   4.157777             0
+ 32            0   2.847842             0
+ 33            0   3.371562             0
+ 35            0   4.822617             0
+ 45            1   4.004907             2
+ 48            1   4.416943             1
+ 51            0   5.447901             0
+ 59            1   4.996927             1
+ 69            1   4.539988             2
+ 70            1   5.262600             1
+ 83            1   3.502079             1
+ 86            1   4.892690             1
+ 91            1   3.701139             2
+ 92            1   4.455100             2
+ 97            1   5.037801             1
+106            1   4.788185             1
+117            1   3.792303             1
+
+==============================================================================================================
+v11_allA_no_cross_noVBeh_5x3/predictions_cls_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_noVBeh_5x3/predictions_cls_top8_normal/submission.zip
+binary={0: np.int64(8), 1: np.int64(15)} ternary={0: np.int64(8), 1: np.int64(9), 2: np.int64(6)}
+inconsistent=0 ids=
+severe=13,18,45,69,91,92
+changed_binary_vs_v9=4 ids=6,69,70,97
+changed_ternary_vs_v9=6 ids=6,13,69,70,92,97
+p_conflicts=8 strong_suspicious=3 ids=18,26,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.467403             0
+  6            1   6.349526             1
+  8            0   3.330855             0
+ 13            1   5.793089             2
+ 18            1   5.618932             2
+ 24            1   4.908123             1
+ 26            0   4.035243             0
+ 32            0   2.299040             0
+ 33            0   2.911387             0
+ 35            0   4.221319             0
+ 45            1   7.214271             2
+ 48            1   4.243085             1
+ 51            0   4.748428             0
+ 59            1   5.787280             1
+ 69            1   7.523454             2
+ 70            1   4.785746             1
+ 83            1   3.986829             1
+ 86            0   4.328476             0
+ 91            1   7.210316             2
+ 92            1   4.561012             2
+ 97            1   4.292057             1
+106            1   6.319147             1
+117            1   4.538364             1
+
+==============================================================================================================
+v11_allA_no_cross_noVBeh_5x3/predictions_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_noVBeh_5x3/predictions_normal/submission.zip
+binary={0: np.int64(7), 1: np.int64(16)} ternary={0: np.int64(9), 1: np.int64(10), 2: np.int64(4)}
+inconsistent=2 ids=26,92
+severe=13,18,69,91
+changed_binary_vs_v9=5 ids=6,26,69,70,97
+changed_ternary_vs_v9=7 ids=6,13,45,69,70,92,97
+p_conflicts=7 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.695472             0
+  6            1   5.224915             1
+  8            0   2.691374             0
+ 13            1   4.242733             2
+ 18            1   4.063855             2
+ 24            1   4.567273             1
+ 26            1   3.619405             0
+ 32            0   1.900675             0
+ 33            0   2.493767             0
+ 35            0   3.343355             0
+ 45            1   5.204115             1
+ 48            1   3.965576             1
+ 51            0   3.518451             0
+ 59            1   4.748991             1
+ 69            1   5.354715             2
+ 70            1   4.399182             1
+ 83            1   3.501281             1
+ 86            0   3.276848             0
+ 91            1   5.135153             2
+ 92            1   3.427127             0
+ 97            1   3.840833             1
+106            1   4.967340             1
+117            1   3.633368             1
+
+==============================================================================================================
+v11_allA_no_cross_noVBeh_5x3/predictions_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_allA_no_cross_noVBeh_5x3/predictions_top8_normal/submission.zip
+binary={0: np.int64(8), 1: np.int64(15)} ternary={0: np.int64(8), 1: np.int64(9), 2: np.int64(6)}
+inconsistent=0 ids=
+severe=13,18,45,69,91,92
+changed_binary_vs_v9=4 ids=6,69,70,97
+changed_ternary_vs_v9=6 ids=6,13,69,70,92,97
+p_conflicts=8 strong_suspicious=3 ids=18,26,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.467403             0
+  6            1   6.349526             1
+  8            0   3.330855             0
+ 13            1   5.793089             2
+ 18            1   5.618932             2
+ 24            1   4.908123             1
+ 26            0   4.035243             0
+ 32            0   2.299041             0
+ 33            0   2.911387             0
+ 35            0   4.221319             0
+ 45            1   7.214271             2
+ 48            1   4.243085             1
+ 51            0   4.748427             0
+ 59            1   5.787280             1
+ 69            1   7.523454             2
+ 70            1   4.785746             1
+ 83            1   3.986829             1
+ 86            0   4.328476             0
+ 91            1   7.210316             2
+ 92            1   4.561012             2
+ 97            1   4.292056             1
+106            1   6.319147             1
+117            1   4.538364             1
+
+==============================================================================================================
+v11_newA_cross_fullVG_5x3/predictions_cls_top6_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_newA_cross_fullVG_5x3/predictions_cls_top6_normal/submission.zip
+binary={0: np.int64(5), 1: np.int64(18)} ternary={0: np.int64(10), 1: np.int64(7), 2: np.int64(6)}
+inconsistent=5 ids=51,69,70,86,97
+severe=18,26,45,91,92,117
+changed_binary_vs_v9=7 ids=6,26,51,69,70,86,97
+changed_ternary_vs_v9=4 ids=6,26,92,117
+p_conflicts=9 strong_suspicious=1 ids=18
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.462487             0
+  6            1   4.328074             1
+  8            0   3.427116             0
+ 13            1   5.260179             1
+ 18            1   3.459351             2
+ 24            1   5.474446             1
+ 26            1   4.994694             2
+ 32            0   3.051811             0
+ 33            0   2.886814             0
+ 35            0   4.226074             0
+ 45            1   5.821952             2
+ 48            1   5.242122             1
+ 51            1   3.632514             0
+ 59            1   4.492499             1
+ 69            1   3.201797             0
+ 70            1   4.713095             0
+ 83            1   5.081199             1
+ 86            1   4.659001             0
+ 91            1   4.248140             2
+ 92            1   5.259240             2
+ 97            1   4.580549             0
+106            1   4.610481             1
+117            1   4.476058             2
+
+==============================================================================================================
+v11_newA_cross_fullVG_5x3/predictions_cls_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_newA_cross_fullVG_5x3/predictions_cls_top8_normal/submission.zip
+binary={0: np.int64(7), 1: np.int64(16)} ternary={0: np.int64(13), 1: np.int64(6), 2: np.int64(4)}
+inconsistent=6 ids=18,26,69,83,86,97
+severe=45,91,92,117
+changed_binary_vs_v9=5 ids=6,26,69,86,97
+changed_ternary_vs_v9=5 ids=6,18,83,92,117
+p_conflicts=7 strong_suspicious=0 ids=
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.973739             0
+  6            1   3.496811             1
+  8            0   2.926972             0
+ 13            1   4.154678             1
+ 18            1   2.721557             0
+ 24            1   4.551847             1
+ 26            1   3.898727             0
+ 32            0   2.624685             0
+ 33            0   2.462167             0
+ 35            0   3.484560             0
+ 45            1   4.548719             2
+ 48            1   4.211943             1
+ 51            0   2.915202             0
+ 59            1   3.662200             1
+ 69            1   2.529910             0
+ 70            0   3.935003             0
+ 83            1   4.044965             0
+ 86            1   3.733275             0
+ 91            1   3.391721             2
+ 92            1   4.124807             2
+ 97            1   3.589120             0
+106            1   3.766813             1
+117            1   3.573047             2
+
+==============================================================================================================
+v11_newA_cross_fullVG_5x3/predictions_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_newA_cross_fullVG_5x3/predictions_normal/submission.zip
+binary={0: np.int64(7), 1: np.int64(16)} ternary={0: np.int64(13), 1: np.int64(7), 2: np.int64(3)}
+inconsistent=6 ids=18,69,83,86,92,97
+severe=26,45,91
+changed_binary_vs_v9=5 ids=6,26,69,86,97
+changed_ternary_vs_v9=5 ids=6,18,26,83,92
+p_conflicts=7 strong_suspicious=0 ids=
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.565860             0
+  6            1   4.613945             1
+  8            0   2.584195             0
+ 13            1   4.972616             1
+ 18            1   2.229009             0
+ 24            1   3.969172             1
+ 26            1   4.696995             2
+ 32            0   2.351325             0
+ 33            0   2.262197             0
+ 35            0   2.747566             0
+ 45            1   5.396794             2
+ 48            1   3.842682             1
+ 51            0   2.567504             0
+ 59            1   3.510836             1
+ 69            1   2.231091             0
+ 70            0   3.187965             0
+ 83            1   3.125759             0
+ 86            1   2.785700             0
+ 91            1   4.713666             2
+ 92            1   3.261948             0
+ 97            1   3.277310             0
+106            1   3.832718             1
+117            1   3.483985             1
+
+==============================================================================================================
+v11_newA_cross_fullVG_5x3/predictions_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_newA_cross_fullVG_5x3/predictions_top8_normal/submission.zip
+binary={0: np.int64(7), 1: np.int64(16)} ternary={0: np.int64(13), 1: np.int64(6), 2: np.int64(4)}
+inconsistent=6 ids=18,26,69,83,86,97
+severe=45,91,92,117
+changed_binary_vs_v9=5 ids=6,26,69,86,97
+changed_ternary_vs_v9=5 ids=6,18,83,92,117
+p_conflicts=7 strong_suspicious=0 ids=
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   2.973739             0
+  6            1   3.496811             1
+  8            0   2.926972             0
+ 13            1   4.154678             1
+ 18            1   2.721557             0
+ 24            1   4.551847             1
+ 26            1   3.898727             0
+ 32            0   2.624685             0
+ 33            0   2.462167             0
+ 35            0   3.484560             0
+ 45            1   4.548719             2
+ 48            1   4.211943             1
+ 51            0   2.915202             0
+ 59            1   3.662200             1
+ 69            1   2.529910             0
+ 70            0   3.935003             0
+ 83            1   4.044965             0
+ 86            1   3.733275             0
+ 91            1   3.391721             2
+ 92            1   4.124807             2
+ 97            1   3.589120             0
+106            1   3.766813             1
+117            1   3.573047             2
+
+==============================================================================================================
+v11_newA_no_cross_fullVG_5x3/predictions_cls_top6_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_newA_no_cross_fullVG_5x3/predictions_cls_top6_normal/submission.zip
+binary={0: np.int64(6), 1: np.int64(17)} ternary={0: np.int64(6), 1: np.int64(10), 2: np.int64(7)}
+inconsistent=2 ids=51,70
+severe=18,26,45,59,69,91,92
+changed_binary_vs_v9=6 ids=6,26,51,69,86,97
+changed_ternary_vs_v9=8 ids=6,26,59,69,70,86,92,97
+p_conflicts=8 strong_suspicious=3 ids=18,59,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   4.668468             0
+  6            1   4.781330             1
+  8            0   4.028259             0
+ 13            1   4.070957             1
+ 18            1   4.517404             2
+ 24            1   5.296810             1
+ 26            1   4.430229             2
+ 32            0   4.670983             0
+ 33            0   4.271564             0
+ 35            0   4.475519             0
+ 45            1   5.105812             2
+ 48            1   5.241915             1
+ 51            1   3.423506             0
+ 59            1   5.306075             2
+ 69            1   4.352407             2
+ 70            0   5.565619             1
+ 83            1   5.409678             1
+ 86            1   4.991605             1
+ 91            1   4.360341             2
+ 92            1   4.718268             2
+ 97            1   4.936257             1
+106            1   4.583345             1
+117            1   4.982636             1
+
+==============================================================================================================
+v11_newA_no_cross_fullVG_5x3/predictions_cls_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_newA_no_cross_fullVG_5x3/predictions_cls_top8_normal/submission.zip
+binary={0: np.int64(5), 1: np.int64(18)} ternary={0: np.int64(7), 1: np.int64(10), 2: np.int64(6)}
+inconsistent=2 ids=51,86
+severe=18,26,45,69,91,92
+changed_binary_vs_v9=7 ids=6,26,51,69,70,86,97
+changed_ternary_vs_v9=6 ids=6,26,69,70,92,97
+p_conflicts=9 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.754017             0
+  6            1   5.959734             1
+  8            0   3.308391             0
+ 13            1   6.832738             1
+ 18            1   4.268163             2
+ 24            1   7.710212             1
+ 26            1   7.340901             2
+ 32            0   3.921748             0
+ 33            0   3.548402             0
+ 35            0   3.973830             0
+ 45            1   8.223528             2
+ 48            1   7.242287             1
+ 51            1   3.616804             0
+ 59            1   6.912679             1
+ 69            1   5.169331             2
+ 70            1   5.816177             1
+ 83            1   7.286381             1
+ 86            1   4.316983             0
+ 91            1   7.907533             2
+ 92            1   4.606914             2
+ 97            1   5.416945             1
+106            1   6.852031             1
+117            1   8.041059             1
+
+==============================================================================================================
+v11_newA_no_cross_fullVG_5x3/predictions_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_newA_no_cross_fullVG_5x3/predictions_normal/submission.zip
+binary={0: np.int64(5), 1: np.int64(18)} ternary={0: np.int64(8), 1: np.int64(11), 2: np.int64(4)}
+inconsistent=3 ids=51,69,86
+severe=26,45,91,92
+changed_binary_vs_v9=7 ids=6,26,51,69,70,86,97
+changed_ternary_vs_v9=6 ids=6,18,26,70,92,97
+p_conflicts=9 strong_suspicious=0 ids=
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.133270             0
+  6            1   4.682550             1
+  8            0   3.001014             0
+ 13            1   5.092526             1
+ 18            1   3.353997             1
+ 24            1   5.955732             1
+ 26            1   5.416156             2
+ 32            0   2.941253             0
+ 33            0   2.784940             0
+ 35            0   3.187782             0
+ 45            1   5.942384             2
+ 48            1   5.493430             1
+ 51            1   3.339066             0
+ 59            1   5.535056             1
+ 69            1   4.038051             0
+ 70            1   4.652252             1
+ 83            1   5.666050             1
+ 86            1   3.428387             0
+ 91            1   5.624016             2
+ 92            1   3.797100             2
+ 97            1   4.030530             1
+106            1   5.178858             1
+117            1   5.973795             1
+
+==============================================================================================================
+v11_newA_no_cross_fullVG_5x3/predictions_top8_normal
+status=DONE
+submission=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/v11_newA_no_cross_fullVG_5x3/predictions_top8_normal/submission.zip
+binary={0: np.int64(5), 1: np.int64(18)} ternary={0: np.int64(7), 1: np.int64(10), 2: np.int64(6)}
+inconsistent=2 ids=51,86
+severe=18,26,45,69,91,92
+changed_binary_vs_v9=7 ids=6,26,51,69,70,86,97
+changed_ternary_vs_v9=6 ids=6,26,69,70,92,97
+p_conflicts=9 strong_suspicious=2 ids=18,69
+
+Predictions:
+ id  binary_pred  phq9_pred  ternary_pred
+  1            0   3.754017             0
+  6            1   5.959734             1
+  8            0   3.308391             0
+ 13            1   6.832737             1
+ 18            1   4.268163             2
+ 24            1   7.710212             1
+ 26            1   7.340900             2
+ 32            0   3.921747             0
+ 33            0   3.548402             0
+ 35            0   3.973830             0
+ 45            1   8.223528             2
+ 48            1   7.242288             1
+ 51            1   3.616804             0
+ 59            1   6.912680             1
+ 69            1   5.169331             2
+ 70            1   5.816177             1
+ 83            1   7.286380             1
+ 86            1   4.316983             0
+ 91            1   7.907533             2
+ 92            1   4.606913             2
+ 97            1   5.416945             1
+106            1   6.852031             1
+117            1   8.041059             1

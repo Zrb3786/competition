@@ -1,0 +1,464 @@
+{
+  "elder_descriptions_struct_train.csv": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_descriptions_struct_train.csv",
+    "size_bytes": 12430,
+    "shape": [
+      110,
+      26
+    ],
+    "columns_first20": [
+      "id",
+      "age",
+      "extraversion",
+      "agreeableness",
+      "openness",
+      "neuroticism",
+      "conscientiousness",
+      "family_members",
+      "desc_len",
+      "age_missing",
+      "extraversion_missing",
+      "agreeableness_missing",
+      "openness_missing",
+      "neuroticism_missing",
+      "conscientiousness_missing",
+      "family_members_missing",
+      "desc_len_missing",
+      "financial_stress_mild financial stress",
+      "financial_stress_moderate financial stress",
+      "financial_stress_no financial stress"
+    ]
+  },
+  "elder_descriptions_struct_test.csv": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_descriptions_struct_test.csv",
+    "size_bytes": 12430,
+    "shape": [
+      110,
+      26
+    ],
+    "columns_first20": [
+      "id",
+      "age",
+      "extraversion",
+      "agreeableness",
+      "openness",
+      "neuroticism",
+      "conscientiousness",
+      "family_members",
+      "desc_len",
+      "age_missing",
+      "extraversion_missing",
+      "agreeableness_missing",
+      "openness_missing",
+      "neuroticism_missing",
+      "conscientiousness_missing",
+      "family_members_missing",
+      "desc_len_missing",
+      "financial_stress_mild financial stress",
+      "financial_stress_moderate financial stress",
+      "financial_stress_no financial stress"
+    ]
+  },
+  "elder_p_v10_train.csv": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_p_v10_train.csv",
+    "size_bytes": 30914,
+    "shape": [
+      110,
+      29
+    ],
+    "columns_first20": [
+      "ID",
+      "age_raw",
+      "age_scaled",
+      "E_raw",
+      "A_raw",
+      "O_raw",
+      "N_raw",
+      "C_raw",
+      "E_scaled",
+      "A_scaled",
+      "O_scaled",
+      "N_scaled",
+      "C_scaled",
+      "financial_stress_raw",
+      "financial_stress_scaled",
+      "family_members_raw",
+      "family_support_scaled",
+      "disease_has",
+      "disease_none",
+      "disease_other"
+    ]
+  },
+  "elder_p_v10_test.csv": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_p_v10_test.csv",
+    "size_bytes": 30914,
+    "shape": [
+      110,
+      29
+    ],
+    "columns_first20": [
+      "ID",
+      "age_raw",
+      "age_scaled",
+      "E_raw",
+      "A_raw",
+      "O_raw",
+      "N_raw",
+      "C_raw",
+      "E_scaled",
+      "A_scaled",
+      "O_scaled",
+      "N_scaled",
+      "C_scaled",
+      "financial_stress_raw",
+      "financial_stress_scaled",
+      "family_members_raw",
+      "family_support_scaled",
+      "disease_has",
+      "disease_none",
+      "disease_other"
+    ]
+  },
+  "elder_p_v10_train.base_no_mg.csv": {
+    "exists": false,
+    "path": "outputs/elder_v3_lite/features/elder_p_v10_train.base_no_mg.csv"
+  },
+  "elder_p_v10_test.base_no_mg.csv": {
+    "exists": false,
+    "path": "outputs/elder_v3_lite/features/elder_p_v10_test.base_no_mg.csv"
+  },
+  "elder_raw_video_motion_train.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_raw_video_motion_train.npz",
+    "size_bytes": 2351342,
+    "keys": {
+      "ids": {
+        "shape": [
+          87
+        ],
+        "dtype": "int64"
+      },
+      "motion_seq": {
+        "shape": [
+          87,
+          4,
+          128,
+          15
+        ],
+        "dtype": "float32"
+      },
+      "pair_mask": {
+        "shape": [
+          87,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "motion_stat": {
+        "shape": [
+          87,
+          384
+        ],
+        "dtype": "float32"
+      },
+      "feature_names": {
+        "shape": [
+          15
+        ],
+        "dtype": "object"
+      },
+      "missing_ids": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      }
+    }
+  },
+  "elder_raw_video_motion_test_official_ids_train_fallback.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_raw_video_motion_test_official_ids_train_fallback.npz",
+    "size_bytes": 611458,
+    "keys": {
+      "ids": {
+        "shape": [
+          23
+        ],
+        "dtype": "int64"
+      },
+      "motion_seq": {
+        "shape": [
+          23,
+          4,
+          128,
+          15
+        ],
+        "dtype": "float32"
+      },
+      "pair_mask": {
+        "shape": [
+          23,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "motion_stat": {
+        "shape": [
+          23,
+          384
+        ],
+        "dtype": "float32"
+      },
+      "feature_names": {
+        "shape": [
+          15
+        ],
+        "dtype": "object"
+      },
+      "missing_ids": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      }
+    }
+  },
+  "elder_audio_big_v10_train.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_audio_big_v10_train.npz",
+    "size_bytes": 16573983,
+    "keys": {
+      "ids": {
+        "shape": [
+          87
+        ],
+        "dtype": "int64"
+      },
+      "pair_mask": {
+        "shape": [
+          87,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "audio_big_pair": {
+        "shape": [
+          87,
+          4,
+          13335
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "elder_audio_big_v10_test.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_audio_big_v10_test.npz",
+    "size_bytes": 4329347,
+    "keys": {
+      "ids": {
+        "shape": [
+          23
+        ],
+        "dtype": "int64"
+      },
+      "pair_mask": {
+        "shape": [
+          23,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "audio_big_pair": {
+        "shape": [
+          23,
+          4,
+          13335
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "elder_audio_big_v10_pca256_train.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_audio_big_v10_pca256_train.npz",
+    "size_bytes": 321472,
+    "keys": {
+      "ids": {
+        "shape": [
+          87
+        ],
+        "dtype": "int64"
+      },
+      "pair_mask": {
+        "shape": [
+          87,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "audio_big_pair": {
+        "shape": [
+          87,
+          4,
+          256
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "elder_audio_big_v10_pca256_test.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_audio_big_v10_pca256_test.npz",
+    "size_bytes": 84555,
+    "keys": {
+      "ids": {
+        "shape": [
+          23
+        ],
+        "dtype": "int64"
+      },
+      "pair_mask": {
+        "shape": [
+          23,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "audio_big_pair": {
+        "shape": [
+          23,
+          4,
+          256
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "elder_motion_behavior_v10_train.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_motion_behavior_v10_train.npz",
+    "size_bytes": 84981,
+    "keys": {
+      "ids": {
+        "shape": [
+          87
+        ],
+        "dtype": "int64"
+      },
+      "pair_mask": {
+        "shape": [
+          87,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "motion_extra_pair": {
+        "shape": [
+          87,
+          4,
+          65
+        ],
+        "dtype": "float32"
+      },
+      "motion_extra_stat": {
+        "shape": [
+          87,
+          19
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "elder_motion_behavior_v10_test.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_motion_behavior_v10_test.npz",
+    "size_bytes": 23216,
+    "keys": {
+      "ids": {
+        "shape": [
+          23
+        ],
+        "dtype": "int64"
+      },
+      "pair_mask": {
+        "shape": [
+          23,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "motion_extra_pair": {
+        "shape": [
+          23,
+          4,
+          65
+        ],
+        "dtype": "float32"
+      },
+      "motion_extra_stat": {
+        "shape": [
+          23,
+          19
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "elder_gait_unit_v10_train.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_gait_unit_v10_train.npz",
+    "size_bytes": 15210,
+    "keys": {
+      "ids": {
+        "shape": [
+          87
+        ],
+        "dtype": "int64"
+      },
+      "gait_extra": {
+        "shape": [
+          87,
+          48
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "elder_gait_unit_v10_test.npz": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/elder_gait_unit_v10_test.npz",
+    "size_bytes": 4506,
+    "keys": {
+      "ids": {
+        "shape": [
+          23
+        ],
+        "dtype": "int64"
+      },
+      "gait_extra": {
+        "shape": [
+          23,
+          48
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "test_ids_from_official_imu.csv": {
+    "exists": true,
+    "path": "outputs/elder_v3_lite/features/test_ids_from_official_imu.csv",
+    "size_bytes": 71,
+    "shape": [
+      23,
+      1
+    ],
+    "columns_first20": [
+      "ID"
+    ]
+  }
+}
