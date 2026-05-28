@@ -1,0 +1,122 @@
+========== [0] Mirror / cache ==========
+HF_ENDPOINT=https://hf-mirror.com
+HF_HOME=/remote-home/yangmz/zhangruibo/.cache/huggingface
+TRANSFORMERS_CACHE=/remote-home/yangmz/zhangruibo/.cache/huggingface/transformers
+MODELSCOPE_CACHE=/remote-home/yangmz/zhangruibo/.cache/modelscope
+
+========== [1] Build merged raw audio/video roots and official test IDs ==========
+[OK] official test ids: 23 [1, 6, 8, 13, 18, 24, 26, 32, 33, 35, 45, 48, 51, 59, 69, 70, 83, 86, 91, 92, 97, 106, 117]
+[OK] saved: /remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/test_ids_from_official_imu.csv
+
+[REPORT] /remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/merged_train_video_report.csv
+source
+hf_train_video     326
+old_train_video     12
+none                10
+[MISSING]
+ ID  pair source  size                                                                                         dst
+ 30     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/30/V_3.mp4
+ 30     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/30/V_4.mp4
+ 39     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/39/V_3.mp4
+ 39     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/39/V_4.mp4
+ 50     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/50/V_3.mp4
+ 50     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/50/V_4.mp4
+ 54     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/54/V_3.mp4
+ 54     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/54/V_4.mp4
+ 87     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/87/V_3.mp4
+ 87     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/87/V_4.mp4
+
+[REPORT] /remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/merged_train_audio_report.csv
+source
+hf_train_audio     326
+old_train_audio     12
+none                10
+[MISSING]
+ ID  pair source  size                                                                                         dst
+ 30     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/30/A_3.WAV
+ 30     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/30/A_4.WAV
+ 39     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/39/A_3.WAV
+ 39     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/39/A_4.WAV
+ 50     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/50/A_3.WAV
+ 50     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/50/A_4.WAV
+ 54     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/54/A_3.WAV
+ 54     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/54/A_4.WAV
+ 87     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/87/A_3.WAV
+ 87     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/87/A_4.WAV
+
+[REPORT] /remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/merged_test_video_report.csv
+source
+old_test_video     76
+old_train_video    12
+none                4
+[MISSING]
+ ID  pair source  size                                                                                                                    dst
+ 32     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/video/32/V_3.mp4
+ 32     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/video/32/V_4.mp4
+ 33     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/video/33/V_3.mp4
+ 33     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/video/33/V_4.mp4
+
+[REPORT] /remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/merged_test_audio_report.csv
+source
+old_test_audio     76
+old_train_audio    12
+none                4
+[MISSING]
+ ID  pair source  size                                                                                                                    dst
+ 32     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/32/A_3.WAV
+ 32     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/32/A_4.WAV
+ 33     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/33/A_3.WAV
+ 33     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/33/A_4.WAV
+
+========== [2] Check merged raw audio ==========
+
+==== train_audio /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio ====
+wav files: 338
+source
+hf_train_audio     326
+old_train_audio     12
+none                10
+[MISSING]
+ ID  pair source  size                                                                                         dst
+ 30     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/30/A_3.WAV
+ 30     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/30/A_4.WAV
+ 39     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/39/A_3.WAV
+ 39     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/39/A_4.WAV
+ 50     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/50/A_3.WAV
+ 50     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/50/A_4.WAV
+ 54     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/54/A_3.WAV
+ 54     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/54/A_4.WAV
+ 87     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/87/A_3.WAV
+ 87     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/87/A_4.WAV
+
+==== test_audio /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio ====
+wav files: 88
+source
+old_test_audio     76
+old_train_audio    12
+none                4
+[MISSING]
+ ID  pair source  size                                                                                                                    dst
+ 32     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/32/A_3.WAV
+ 32     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/32/A_4.WAV
+ 33     3   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/33/A_3.WAV
+ 33     4   none     0 /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/33/A_4.WAV
+
+========== [3] Extract A_big audio features from raw A_1~A_4 ==========
+usage: extract_audio_v10.py [-h] --audio_root AUDIO_ROOT --id_csv ID_CSV
+                            --output_npz OUTPUT_NPZ --transcript_csv
+                            TRANSCRIPT_CSV [--device DEVICE]
+                            [--wavlm_model WAVLM_MODEL]
+                            [--wavlm_layers WAVLM_LAYERS]
+                            [--enable_wavlm ENABLE_WAVLM]
+                            [--require_wavlm REQUIRE_WAVLM]
+                            [--emotion2vec_model EMOTION2VEC_MODEL]
+                            [--enable_emotion2vec ENABLE_EMOTION2VEC]
+                            [--require_emotion2vec REQUIRE_EMOTION2VEC]
+                            [--whisper_model WHISPER_MODEL]
+                            [--whisper_device WHISPER_DEVICE]
+                            [--whisper_compute_type WHISPER_COMPUTE_TYPE]
+                            [--whisper_language WHISPER_LANGUAGE]
+                            [--enable_whisper ENABLE_WHISPER]
+                            [--require_whisper REQUIRE_WHISPER]
+extract_audio_v10.py: error: the following arguments are required: --audio_root, --id_csv, --output_npz, --transcript_csv

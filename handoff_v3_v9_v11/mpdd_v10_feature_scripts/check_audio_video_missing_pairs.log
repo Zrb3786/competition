@@ -1,0 +1,139 @@
+AUDIO_BIG_TRAIN_NPZ=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/elder_audio_big_v10_train.npz
+AUDIO_BIG_TEST_NPZ=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/elder_audio_big_v10_test.npz
+TRAIN_MOTION_NPZ=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/elder_raw_video_motion_train.npz
+TEST_MOTION_NPZ=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features/elder_raw_video_motion_test_official_ids_train_fallback.npz
+FEATURE_DIR=/remote-home/yangmz/zhangruibo/mpdd_elder_v3_lite/outputs/elder_v3_lite/features
+
+==========================================================================================
+COMPARE TRAIN
+==========================================================================================
+audio ids n=87 first=[2, 3, 4, 5, 7, 9, 10, 12, 14, 15] last=[105, 107, 108, 109, 110, 113, 114, 115, 116, 118]
+video ids n=87 first=[2, 3, 4, 5, 7, 9, 10, 12, 14, 15] last=[105, 107, 108, 109, 110, 113, 114, 115, 116, 118]
+ID set same: True
+ID order same: True
+
+audio valid pairs: 337.0 / 348
+video valid pairs: 338.0 / 348
+
+audio missing n=11
+[(12, 1), (30, 3), (30, 4), (39, 3), (39, 4), (50, 3), (50, 4), (54, 3), (54, 4), (87, 3), (87, 4)]
+
+video missing n=10
+[(30, 3), (30, 4), (39, 3), (39, 4), (50, 3), (50, 4), (54, 3), (54, 4), (87, 3), (87, 4)]
+
+both missing n=10
+[(30, 3), (30, 4), (39, 3), (39, 4), (50, 3), (50, 4), (54, 3), (54, 4), (87, 3), (87, 4)]
+
+audio_only missing n=1
+[(12, 1)]
+
+video_only missing n=0
+[]
+
+per-ID missing summary:
+ ID audio_missing_pairs video_missing_pairs
+ 12                   1                    
+ 30                 3,4                 3,4
+ 39                 3,4                 3,4
+ 50                 3,4                 3,4
+ 54                 3,4                 3,4
+ 87                 3,4                 3,4
+
+==========================================================================================
+COMPARE TEST
+==========================================================================================
+audio ids n=23 first=[1, 6, 8, 13, 18, 24, 26, 32, 33, 35] last=[59, 69, 70, 83, 86, 91, 92, 97, 106, 117]
+video ids n=23 first=[1, 6, 8, 13, 18, 24, 26, 32, 33, 35] last=[59, 69, 70, 83, 86, 91, 92, 97, 106, 117]
+ID set same: True
+ID order same: True
+
+audio valid pairs: 88.0 / 92
+video valid pairs: 88.0 / 92
+
+audio missing n=4
+[(32, 3), (32, 4), (33, 3), (33, 4)]
+
+video missing n=4
+[(32, 3), (32, 4), (33, 3), (33, 4)]
+
+both missing n=4
+[(32, 3), (32, 4), (33, 3), (33, 4)]
+
+audio_only missing n=0
+[]
+
+video_only missing n=0
+[]
+
+per-ID missing summary:
+ ID audio_missing_pairs video_missing_pairs
+ 32                 3,4                 3,4
+ 33                 3,4                 3,4
+
+==== raw report: train audio ====
+source counts:
+source
+hf_train_audio     326
+old_train_audio     12
+none                10
+
+source=none rows:
+ ID  pair source  size path                                                                                         dst
+ 30     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/30/A_3.WAV
+ 30     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/30/A_4.WAV
+ 39     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/39/A_3.WAV
+ 39     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/39/A_4.WAV
+ 50     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/50/A_3.WAV
+ 50     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/50/A_4.WAV
+ 54     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/54/A_3.WAV
+ 54     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/54/A_4.WAV
+ 87     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/87/A_3.WAV
+ 87     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/audio/87/A_4.WAV
+
+==== raw report: test audio ====
+source counts:
+source
+old_test_audio     76
+old_train_audio    12
+none                4
+
+source=none rows:
+ ID  pair source  size path                                                                                                                    dst
+ 32     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/32/A_3.WAV
+ 32     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/32/A_4.WAV
+ 33     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/33/A_3.WAV
+ 33     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/audio/33/A_4.WAV
+
+==== raw report: train video ====
+source counts:
+source
+hf_train_video     326
+old_train_video     12
+none                10
+
+source=none rows:
+ ID  pair source  size path                                                                                         dst
+ 30     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/30/V_3.mp4
+ 30     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/30/V_4.mp4
+ 39     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/39/V_3.mp4
+ 39     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/39/V_4.mp4
+ 50     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/50/V_3.mp4
+ 50     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/50/V_4.mp4
+ 54     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/54/V_3.mp4
+ 54     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/54/V_4.mp4
+ 87     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/87/V_3.mp4
+ 87     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_train/video/87/V_4.mp4
+
+==== raw report: test video ====
+source counts:
+source
+old_test_video     76
+old_train_video    12
+none                4
+
+source=none rows:
+ ID  pair source  size path                                                                                                                    dst
+ 32     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/video/32/V_3.mp4
+ 32     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/video/32/V_4.mp4
+ 33     3   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/video/33/V_3.mp4
+ 33     4   none     0  NaN /remote-home/yangmz/zhangruibo/MPDD-AVG-2026/raw_videos_merged/elder_test_official_ids_train_fallback/video/33/V_4.mp4
